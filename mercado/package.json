@@ -1,9 +1,9 @@
 {
-  "home": "https://github.com/OMATTECHH/MercadoClone.git",
   "name": "mercado",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://github.com/OMATTECHH/MercadoClone.git",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
