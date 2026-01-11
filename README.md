@@ -1,59 +1,56 @@
-🛒 Mercado Livre – Clone Frontend (React)
+🛒 Mercado Livre Clone
 
-Um clone de interface do Mercado Livre, desenvolvido em React, com foco em componentização, slider dinâmico, layout responsivo e boas práticas de frontend moderno.
-
-Este projeto tem como objetivo estudo, portfólio e prática real de React, hooks e organização de componentes.
+⚛️ Frontend desenvolvido em React
+🎯 Projeto focado em componentização, UI moderna e deploy com GitHub Pages
 
 📸 Preview
 
-Interface contendo:
+Interface inspirada no Mercado Livre, contendo:
 
-Header com logo e barra de busca 🔍
+🔝 Header com logo e barra de busca
 
-Hero com slider de ofertas navegável ⬅️➡️
+🎯 Hero Slider com imagens dinâmicas
 
-Footer informativo com contatos e redes sociais 📞📍
+🔻 Footer institucional com contatos e redes sociais
 
-(Após o deploy com GitHub Pages, o link ficará aqui)
+🔗 Deploy: (em breve via GitHub Pages)
 
-🧠 Conceitos Aplicados
+🧠 Objetivo do Projeto
 
-✔ Componentização
-✔ Hooks (useState)
-✔ Renderização dinâmica com .map()
-✔ Slider controlado por estado
-✔ Organização de assets
-✔ HTML semântico
-✔ Preparado para deploy estático
+Este projeto foi desenvolvido com foco em estudo prático e portfólio, aplicando conceitos reais usados no mercado frontend moderno:
+
+Organização de componentes
+
+Gerenciamento de estado com Hooks
+
+Renderização dinâmica
+
+Estrutura limpa e escalável
 
 🧱 Estrutura do Projeto
 src/
 ├── assets/
-│   └── D_NQ_NP_965695-MLA78817220419_082024-F.jpg
+│   └── logo.jpg
 │
 ├── components/
-│   ├── Header/
-│   │   └── Header.jsx
-│   ├── Main/
-│   │   └── Main.jsx
-│   └── Footer/
-│       └── Footer.jsx
+│   ├── Header.jsx
+│   ├── Main.jsx
+│   └── Footer.jsx
 │
 ├── App.jsx
 ├── main.jsx
 └── index.css
-
 ⚙️ Tecnologias Utilizadas
-Tecnologia	Descrição
+Tecnologia	Finalidade
 ⚛️ React	Biblioteca principal
 🧠 Hooks	useState
 🎨 CSS / Tailwind	Estilização
 🌐 GitHub Pages	Deploy
-🖼 SVG	Ícones
-🧩 Componentes Principais
+🖼 SVG	Ícones vetoriais
+🧩 Componentes
 🔝 Header
 
-Logo com carregamento otimizado (loading="lazy")
+Logo com carregamento otimizado
 
 Campo de busca
 
@@ -61,20 +58,18 @@ Botão com ícone SVG
 
 🎯 Main (Hero Slider)
 
-Slider de imagens
+Slider de imagens promocionais
 
 Navegação manual (prev / next)
 
-Controle de estado com useState
+Controle via useState
 
-Transição via classe dinâmica (slide-${currentImage})
+Transições controladas por classe dinâmica
 
 🔻 Footer
 
 Informações institucionais
 
-Contato e endereço fictício
+Contato fictício
 
-Link externo com noopener noreferrer
-
-Copyright
+Link externo com boas práticas de segurança
