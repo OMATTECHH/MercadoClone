@@ -6,7 +6,7 @@ import './index.css'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter basename='/Mercado'>
+    <BrowserRouter basename='/MercadoClone'>
     <Routes>
       <Route path='/*' element={<Home/>}/>
     </Routes>
