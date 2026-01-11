@@ -1,9 +1,9 @@
-#🛒 Mercado Livre Clone
+🛒 #Mercado Livre Clone
 
 ⚛️ Frontend desenvolvido em React
 🎯 Projeto focado em componentização, UI moderna e deploy com GitHub Pages
 
-#📸 Preview
+📸#Preview
 
 #Interface inspirada no Mercado Livre, contendo:
 
