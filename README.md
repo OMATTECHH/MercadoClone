@@ -1,11 +1,11 @@
-🛒 Mercado Livre Clone
+#🛒 Mercado Livre Clone
 
 ⚛️ Frontend desenvolvido em React
 🎯 Projeto focado em componentização, UI moderna e deploy com GitHub Pages
 
-📸 Preview
+#📸 Preview
 
-Interface inspirada no Mercado Livre, contendo:
+#Interface inspirada no Mercado Livre, contendo:
 
 🔝 Header com logo e barra de busca
 
@@ -13,9 +13,9 @@ Interface inspirada no Mercado Livre, contendo:
 
 🔻 Footer institucional com contatos e redes sociais
 
-🔗 Deploy: (em breve via GitHub Pages)
+#🔗 Deploy: (em breve via GitHub Pages)
 
-🧠 Objetivo do Projeto
+#🧠 Objetivo do Projeto
 
 Este projeto foi desenvolvido com foco em estudo prático e portfólio, aplicando conceitos reais usados no mercado frontend moderno:
 
@@ -27,7 +27,7 @@ Renderização dinâmica
 
 Estrutura limpa e escalável
 
-🧱 Estrutura do Projeto
+#🧱 Estrutura do Projeto
 src/
 ├── assets/
 │   └── logo.jpg
@@ -56,7 +56,7 @@ Campo de busca
 
 Botão com ícone SVG
 
-🎯 Main (Hero Slider)
+#🎯 Main (Hero Slider)
 
 Slider de imagens promocionais
 
@@ -66,7 +66,7 @@ Controle via useState
 
 Transições controladas por classe dinâmica
 
-🔻 Footer
+#🔻 Footer
 
 Informações institucionais
 
