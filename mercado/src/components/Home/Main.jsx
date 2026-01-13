@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 
 const Main = () => {
+
   const heroImages = [
     "https://http2.mlstatic.com/D_NQ_807157-MLA102424226983_122025-OO.webp",
     "https://http2.mlstatic.com/D_NQ_724921-MLA103748196977_012026-OO.webp",
@@ -9,22 +10,18 @@ const Main = () => {
 
   const [currentImage, setCurrentImage] = useState(0);
 
-  const nextImage = () => {
+  const changeImage = (direction) => {
     setCurrentImage((prev) => {
-      return prev === heroImages.length - 1 ? 0 : prev + 1;
-    });
-  };
-
-  const prevImage = () => {
-    setCurrentImage((prev) => {
-      return prev === 0 ? heroImages.length - 1 : prev - 1;
+      return direction === "prev"
+      ? prev === 0 ? heroImages.length - 1 : prev - 1
+      : prev === heroImages.length - 1 ? 0 :  prev + 1
     });
   };
 
   return (
     <>
       <section className="hero">
-        <button className="hero-btn left" onClick={prevImage}>
+        <button className="hero-btn left" onClick={() => changeImage("prev")}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -51,7 +48,7 @@ const Main = () => {
           </div>
         </div>
 
-        <button className="hero-btn right" onClick={nextImage}>
+        <button className="hero-btn right" onClick={() => changeImage("next")}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
